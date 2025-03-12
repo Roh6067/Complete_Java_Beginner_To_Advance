@@ -1,8 +1,6 @@
 class pyramid {
 
     public static void main(String[] args) {
-        // Pyramid Pattern
-
         // 1 to n no's
         int num = 4;
 
@@ -21,8 +19,6 @@ class pyramid {
             for (int j = i; j > 0; j--) {
                 System.out.print("*");
             }
-
-            // Move to the next line after each row
             System.out.println();
         }
     }
